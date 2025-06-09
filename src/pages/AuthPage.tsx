@@ -180,22 +180,6 @@ const AuthPage: React.FC = () => {
                   : 'Already have an account? Sign in'}
               </button>
             </div>
-
-            <div className="mt-6 p-4 bg-gray-50 rounded-lg">
-              <h4 className="text-sm font-semibold text-gray-700 mb-2">
-                Test Credentials:
-              </h4>
-              <div className="text-xs text-gray-600 space-y-1">
-                <p>
-                  <strong>Investor:</strong> username: investor1, password:
-                  password
-                </p>
-                <p>
-                  <strong>Creator:</strong> username: creator1, password:
-                  password
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </main>

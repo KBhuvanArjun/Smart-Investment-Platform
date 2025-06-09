@@ -105,33 +105,6 @@ const LandingPage: React.FC = () => {
               </div>
             </div>
           </div>
-
-          <div className="bg-white rounded-2xl shadow-lg p-8 max-w-4xl mx-auto">
-            <h3 className="text-2xl font-bold text-gray-800 mb-4">Why Choose Our Platform?</h3>
-            <div className="grid md:grid-cols-3 gap-6">
-              <div className="text-center">
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-teal-500 rounded-xl flex items-center justify-center mx-auto mb-3">
-                  <Zap className="w-6 h-6 text-white" />
-                </div>
-                <h4 className="font-semibold text-gray-800 mb-2">AI-Powered Insights</h4>
-                <p className="text-gray-600 text-sm">Advanced analytics for risk assessment and market predictions</p>
-              </div>
-              <div className="text-center">
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-teal-500 rounded-xl flex items-center justify-center mx-auto mb-3">
-                  <Users className="w-6 h-6 text-white" />
-                </div>
-                <h4 className="font-semibold text-gray-800 mb-2">Secure Network</h4>
-                <p className="text-gray-600 text-sm">Verified creators and investors in a trusted ecosystem</p>
-              </div>
-              <div className="text-center">
-                <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-teal-500 rounded-xl flex items-center justify-center mx-auto mb-3">
-                  <TrendingUp className="w-6 h-6 text-white" />
-                </div>
-                <h4 className="font-semibold text-gray-800 mb-2">Dynamic Profits</h4>
-                <p className="text-gray-600 text-sm">Flexible profit-sharing models tailored to each project</p>
-              </div>
-            </div>
-          </div>
         </div>
       </main>
       

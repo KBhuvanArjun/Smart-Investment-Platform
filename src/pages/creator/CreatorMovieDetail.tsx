@@ -35,16 +35,29 @@ const CreatorMovieDetail: React.FC = () => {
       </div>
 
       <h2 className="text-xl font-semibold mb-2">Funding Goal</h2>
-      <div className="grid grid-cols-2 gap-4 mb-6">
-        <input defaultValue={movie.totalAmount} placeholder="Total Amount" className="p-2 border rounded" />
-        <input defaultValue={movie.investedAmount} placeholder="Invested Amount" className="p-2 border rounded" />
-        <input
-          defaultValue={movie.totalAmount - movie.investedAmount}
-          placeholder="Required Amount"
-          className="p-2 border rounded"
-        />
-        <input defaultValue={movie.stockPrice} placeholder="Stock Price" className="p-2 border rounded" />
-      </div>
+<div className="grid grid-cols-2 gap-4 mb-6">
+  <div>
+    <label className="block mb-1 font-medium">Total Amount</label>
+    <input defaultValue={movie.totalAmount} placeholder="Total Amount" className="p-2 border rounded w-full" />
+  </div>
+  <div>
+    <label className="block mb-1 font-medium">Invested Amount</label>
+    <input defaultValue={movie.investedAmount} placeholder="Invested Amount" className="p-2 border rounded w-full" />
+  </div>
+  <div>
+    <label className="block mb-1 font-medium">Required Amount</label>
+    <input
+      defaultValue={movie.totalAmount - movie.investedAmount}
+      placeholder="Required Amount"
+      className="p-2 border rounded w-full"
+    />
+  </div>
+  <div>
+    <label className="block mb-1 font-medium">Stock Price</label>
+    <input defaultValue={movie.stockPrice} placeholder="Stock Price" className="p-2 border rounded w-full" />
+  </div>
+</div>
+
 
       <button className="bg-yellow-500 px-4 py-2 rounded text-white mr-4">AI - Analysis</button>
       <button className="bg-green-600 px-4 py-2 rounded text-white">Save</button>
